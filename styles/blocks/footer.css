@@ -3,10 +3,6 @@
   --footer-text-color : #fff;
 }
 
-a {
-  text-decoration: none;
-}
-
 .homepage-footer {
   min-height: 120px;
   background-color: var(--footer-main-color);
@@ -42,8 +38,4 @@ a {
   font-size: 30px;
   margin-right: 10px;
   color:  var(--footer-text-color);
-}
-
-.homepage-footer__social > a > i:hover {
-  opacity: .7;
 }
