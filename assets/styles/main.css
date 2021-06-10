@@ -1,0 +1,6 @@
+@import url(./variables.css);
+@import url(./blocks/header.css);
+
+* {
+  box-sizing: border-box;
+}
