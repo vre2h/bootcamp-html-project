@@ -7,4 +7,4 @@ A small project which is going to use following tech stack:
   - flexbox
 - Google Fonts
 
-Collaborators: @vahan11, and other bootcamp students
+Collaborators: @hov001, @vahan11, and other bootcamp students
