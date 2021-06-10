@@ -1,0 +1,16 @@
+.main-btn {
+  padding: 7px 14px;
+
+  border: none;
+  outline: none;
+  border-radius: 20px;
+
+  cursor: pointer;
+
+  transition: 200ms;
+}
+
+.main-btn:hover {
+  color: #fff;
+  background: var(--secondary-btn-bg-color);
+}
