@@ -36,6 +36,6 @@
 
 .homepage-footer__social > a > i {
   font-size: 30px;
-  margin-right: 10px;
+  padding: 10px;
   color:  var(--footer-text-color);
 }
