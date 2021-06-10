@@ -1,6 +1,7 @@
 @import url(./variables.css);
 @import url(./general/button.css);
 @import url(./blocks/header.css);
+@import url(./blocks/footer.css);
 
 * {
   box-sizing: border-box;
