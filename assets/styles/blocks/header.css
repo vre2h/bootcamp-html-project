@@ -30,5 +30,54 @@
 }
 
 .main-nav .main-nav-link {
+  position: relative;
+
+  width: 100%;
   padding: 10px;
+
+  transition: all 1s;
+}
+
+@keyframes borderOpeningLeft {
+  0% {
+    width: 1%;
+  }
+
+  100% {
+    width: 50%;
+    left: 10px;
+  }
+}
+
+@keyframes borderOpeningRight {
+  0% {
+    width: 1%;
+  }
+
+  100% {
+    width: calc(50% - 10px);
+    right: 0;
+  }
+}
+
+.main-nav-link:hover::after,
+.main-nav-link:hover::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 50%;
+  bottom: 0;
+
+  background: #fff;
+}
+
+.main-nav-link:hover::after {
+  animation: borderOpeningLeft 1s;
+  animation-fill-mode: forwards;
+}
+
+.main-nav-link:hover::before {
+  animation: borderOpeningRight 1s;
+  animation-fill-mode: forwards;
 }
