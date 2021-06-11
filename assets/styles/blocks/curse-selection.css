@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-family: ;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+} 
+
+.course-selection .container {
+    display: flex;
+}
+
+.course-wrap { 
+    width: 459px;
+    height: 306px;
+    overflow: hidden;
+    position: relative;
+    background-color: grey;
+}
+
+.course {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 600;
+    transition-duration: 0.3s;
+}
+
+.bg-img-cover::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: 
+    linear-gradient(to bottom, rgba(16, 21, 47, 0.30), rgba(16, 21, 47, 0.30));
+    z-index: 400;
+    transition: opacity 0.3s;
+    opacity: 1;
+}
+
+.course-wrap:hover .bg-img-cover::before {
+      opacity: 0;
+}
+
+.course-wrap:hover .bg-img1 {
+    transform: scale(1.1);
+}
+
+.course-wrap:hover .bg-img2 {
+    transform: scale(1.1);
+}
+
+.course-wrap:hover .bg-img3 {
+    transform: scale(1.1);
+}
+
+.course-wrap:hover .bg-img4 {
+    transform: scale(1.1);
+}
+
+.bg-img1 {
+    background-image:
+        linear-gradient(to bottom, rgba(16, 21, 47, 0.30), rgba(16, 21, 47, 0.30)),
+        url("https://thumb.tildacdn.com/tild3335-3933-4762-a130-326235363638/-/resize/400x400/-/format/webp/ML.jpeg");
+}
+
+.bg-img2 {
+    background-image:
+        linear-gradient(to bottom, rgba(16, 21, 47, 0.30), rgba(16, 21, 47, 0.30)), 
+        url("https://thumb.tildacdn.com/tild3533-6535-4665-a535-633734393139/-/resize/400x400/-/format/webp/qa1.png");
+}
+
+.bg-img3 {
+    background-image: 
+        linear-gradient(to bottom, rgba(16, 21, 47, 0.50), rgba(16, 21, 47, 0.50)),
+        url("https://thumb.tildacdn.com/tild6431-6633-4166-b963-303739613038/-/resize/400x400/-/format/webp/fe.jpeg");
+}
+
+.bg-img4 {
+    background-image:
+        linear-gradient(to bottom, rgba(16, 21, 47, 0.50), rgba(16, 21, 47, 0.50)), 
+        url("https://thumb.tildacdn.com/tild6665-6139-4336-b662-323931373434/-/resize/400x400/-/format/webp/be.jpeg");
+}
+
+.text-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 100px 20px;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+.text-container {
+    color: white;
+}
+
+.title {
+    font-size: 120%;
+    letter-spacing: 1px;
+}
+
+.text {
+    font-size: 90%;
+    line-height: 140%;
+}
+
+.course-wrap:hover .text-wrap  {
+    transform: translate(0, -45px);
+}
+
+.button-wrap {
+    position: absolute;
+    width: 120px;
+    left: 50%;
+    top: 50%;
+    margin-left: -60px;
+    margin-top: -19px;
+    transition: 0.3s;
+    z-index: 800;
+}
+
+.button {
+    visibility: hidden;
+    border:none;
+    outline:none;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.course-wrap:hover .button  {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.course-wrap:hover .button-wrap {
+    transform: translate(0, 70px);
+}
