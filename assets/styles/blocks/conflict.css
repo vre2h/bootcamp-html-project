@@ -1,0 +1,26 @@
+.subtitle {
+  position: relative;
+
+  width: 250px;
+  margin: 20px;
+  padding-left: 30px;
+}
+
+.subtitle::before {
+  position: absolute;
+  left: 0;
+  top: calc(50% - 10px);
+
+  content: "";
+  width: 20px;
+  height: 20px;
+
+  transform: rotate(45deg);
+  transition: 200ms;
+
+  background: var(--main-color);
+}
+
+.subtitle:hover::before {
+  transform: rotate(90deg);
+}
