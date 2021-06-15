@@ -16,7 +16,7 @@ html {
 
 .bg-wrap__video-cover {
     width: 100%;
-    height: calc(100vw * 9 / 16);
+    height: calc((100vw * 9 / 16) - 10px);
     position: absolute;
     background-color: black;
     z-index: 999;
