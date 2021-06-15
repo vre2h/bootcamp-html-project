@@ -104,7 +104,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
     <link rel="stylesheet" href="./assets/styles/main.css" />
-    <link rel="stylesheet" href="./assets/styles/blocks/curse-selection.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
     <!-- css end -->
     <!-- fonts start -->
@@ -142,16 +141,41 @@
         </div>
       </div>
     </header>
-    <h1>HTML/CSS</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit,
-      asperiores, molestias quaerat odio sequi repudiandae possimus qui
-      blanditiis aliquam labore amet? Cumque repudiandae veritatis earum
-      obcaecati id animi reprehenderit consequuntur.
-    </p>
+
+    <!-- Hat -->
+    <div class="bg-wrap">
+      <!-- Background -->
+      <div class="bg-wrap__video-cover"></div>
+
+      <video class="bg-wrap__video" autoplay muted loop>
+        <source src="assets/videos/hat/hat-bg-short.mp4" type="video/mp4">
+      </video>
+
+      <div class="bg-wrap__container">
+        <!-- Text -->
+        <div class="bg-wrap__text">
+          <div class="title">Join our Bootcamp!</div>
+
+          <div class="text">With this brand new educational experience, we aim to train<br>
+            future professionals willing to study full-time for four<br>
+            months, with no upfront fees.
+          </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="bg-wrap__buttons">
+          <button class="but apply">Apply</button>
+          <a href="#courses">
+            <button class="but discover">Discover Bootcamps</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+   
 
     <!-- course selection -->
-    <div class="course-selection mb-20">
+    <div id="courses" class="course-selection mb-20">
       <div class="container">
         <div class="course-wrap">
           <a href="http://bootcamps.aca.am/ml">
@@ -277,4 +301,3 @@
     <!-- footer end -->
   </body>
 </html>
-
