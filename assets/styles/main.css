@@ -2,9 +2,16 @@
 @import url(./general/button.css);
 @import url(./blocks/header.css);
 @import url(./blocks/footer.css);
+@import url(./blocks/course-selection.css);
+@import url(./blocks/hat.css);
+@import url(./blocks/address.css);
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
 }
 
 a {

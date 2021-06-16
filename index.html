@@ -104,7 +104,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
     <link rel="stylesheet" href="./assets/styles/main.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
     <!-- css end -->
+    <!-- fonts start -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts end -->
   </head>
   <body>
     <header id="header" class="main-header">
@@ -133,13 +141,149 @@
         </div>
       </div>
     </header>
-    <h1>HTML/CSS</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit,
-      asperiores, molestias quaerat odio sequi repudiandae possimus qui
-      blanditiis aliquam labore amet? Cumque repudiandae veritatis earum
-      obcaecati id animi reprehenderit consequuntur.
-    </p>
+
+    <!-- Hat -->
+    <div class="bg-wrap">
+      <!-- Background -->
+      <div class="bg-wrap__video-cover"></div>
+
+      <video class="bg-wrap__video" autoplay muted loop>
+        <source src="assets/videos/hat/hat-bg-short.mp4" type="video/mp4">
+      </video>
+
+      <div class="bg-wrap__container">
+        <!-- Text -->
+        <div class="bg-wrap__text">
+          <div class="title">Join our Bootcamp!</div>
+
+          <div class="text">With this brand new educational experience, we aim to train<br>
+            future professionals willing to study full-time for four<br>
+            months, with no upfront fees.
+          </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="bg-wrap__buttons">
+          <button class="but apply">Apply</button>
+          <a href="#courses">
+            <button class="but discover">Discover Bootcamps</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Address -->
+    <div class="address">
+      <div class="address__image">
+        <img src="./assets/img/location.svg" alt="location sign">
+      </div>
+      <div class="address__text">
+        Armenian Code Academy<br>
+        3 Hakob Hakobyan, Yerevan
+      </div>
+    </div>
+   
+
+    <!-- course selection -->
+    <div id="courses" class="course-selection mb-20">
+      <div class="container">
+        <div class="course-wrap">
+          <a href="http://bootcamps.aca.am/ml">
+            <div class="bg bg-img1 bg-img-cover"></div>
+
+            <div class="course1 course">  
+              
+              <div class="text-wrap">
+                <div class="text-container">
+                  <div class="mb-20 title"><b>Machine Learning</b></div>
+                  <div class="text">Python, Math, Regression, Classification,</br>
+                      Trees, Unsupervised Clustering, Neural</br>
+                      Networks, NLP, English for Tech
+                  </div>
+                </div>
+              </div>
+
+              <div class="button-wrap">
+                <button class="button"><b>Learn more</b></button>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="course-wrap">
+          <a href="http://bootcamps.aca.am/qa">
+            <div class="bg bg-img2 bg-img-cover"></div>
+
+            <div class="course2 course">
+
+              <div class="text-wrap">
+                <div class="text-container">
+                  <div class="mb-20 title"><b>Quality Assurance</b></div>
+                  <div class="text">Java, Web Automation, Test Frameworks,</br>
+                      Selenium WebDriver, Automation</br>
+                      Framework</br> Project Management, English for Tech 
+                  </div>
+                </div>
+              </div>
+
+              <div class="button-wrap">
+                <button class="button"><b>Learn more</b></button>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="course-wrap">
+          <a href="http://bootcamps.aca.am/frontend">
+            <div class="bg bg-img3 bg-img-cover"></div>
+
+            <div class="course3 course">
+              
+              <div class="text-wrap">
+                <div class="text-container">
+                  <div class="mb-20 title"><b>Frontend Engineering</b></div>
+                  <div class="text">Javascripd Basics, HTML, CSS, Advanced</br>
+                      JS, React, Redux, NodeJS, UX/UI Design,</br>
+                      Project management, English for Tech
+                  </div>
+                </div>
+              </div>
+
+              <div class="button-wrap">
+                <button class="button"><b>Learn more</b></button>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="course-wrap">
+          <a href="http://bootcamps.aca.am/backend">
+            <div class="bg bg-img4 bg-img-cover"></div>
+
+            <div class="course4 course">
+              
+              <div class="text-wrap">
+                <div class="text-container">
+                  <div class="mb-20 title"><b>Backend Engineering</b></div>
+                  <div class="text">Java Basics, Advanced Java, Databases,</br>
+                      Spring Framework, JavaScript, DevOps,</br>
+                      Project Management, English for Tech
+                  </div>
+                </div>
+              </div>
+
+              <div class="button-wrap">
+                <button class="button"><b>Learn more</b></button>
+              </div>
+
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
 
     <!-- footer -->
     <footer class="homepage-footer">
