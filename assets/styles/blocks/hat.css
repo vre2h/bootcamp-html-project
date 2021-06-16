@@ -36,7 +36,7 @@ html {
 
 /* Text */
 .bg-wrap__container {
-    padding: 80px;
+    padding: 175px 80px;
     display: flex;
     flex-direction: column;
 }
