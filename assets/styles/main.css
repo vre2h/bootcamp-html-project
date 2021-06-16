@@ -5,6 +5,7 @@
 @import url(./blocks/course-selection.css);
 @import url(./blocks/hat.css);
 @import url(./blocks/address.css);
+@import url(./blocks/registration.css);
 
 * {
   box-sizing: border-box;
