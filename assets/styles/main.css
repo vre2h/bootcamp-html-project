@@ -6,6 +6,7 @@
 @import url(./blocks/hat.css);
 @import url(./blocks/address.css);
 @import url(./blocks/registration.css);
+@import url(./blocks/expectations.css);
 
 * {
   box-sizing: border-box;

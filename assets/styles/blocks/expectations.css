@@ -1,0 +1,72 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ex__background {
+    width: 100%;
+    height: 100%;
+    background-color: #e5e6fc;
+}
+
+.ex__container {
+    padding: 150px 0 200px 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ex__title {
+    margin-bottom: 100px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.ex__expectations {
+    display: flex;
+}
+
+/* Each block */
+.ex__expectations .exp {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.exp__head {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.exp__img {
+    margin-right: 15px;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+}
+
+.exp__img img {
+    width: 63px;
+    height: 63px;
+    transition: 0.2s ease;
+ }
+
+.exp__title {
+    font-size: 150%;
+    font-weight: 700;
+    padding-top: 5%;
+}
+
+.exp__title--employ {
+    padding-top: 1%;
+}
+
+.exp__text {
+    font-size: 120%;
+    line-height: 150%;
+}
+
+.exp__img img:hover {
+    width: 65px;
+    height: 65px;
+ }
+
+
