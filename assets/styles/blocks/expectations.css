@@ -1,3 +1,13 @@
+@media screen and (max-width: 870px) {
+    .ex .ex__container {
+        padding: 50px;
+    }
+    .ex .ex__title {
+        margin: auto;
+        margin-bottom: 80px;
+    }
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }

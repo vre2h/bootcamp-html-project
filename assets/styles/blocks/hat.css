@@ -1,9 +1,16 @@
-* {
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
+@media screen and (max-width: 870px) {
+   .bg-wrap .bg-wrap__container{
+       padding: 120px 80px;
+   }
+   .bg-wrap .bg-wrap__text {
+       margin-bottom: 20px;
+   }
+   .bg-wrap .bg-wrap__text .title {
+       font-size: 250%;
+   }
+   .bg-wrap .bg-wrap__text .text {
+    font-size: 120%;
+   }
 }
 
 /* Background */
@@ -42,10 +49,10 @@ html {
 }
 
 .bg-wrap__text {
-    flex-direction: column;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 9999;
+    margin-bottom: 50px;
 }
 
 .bg-wrap__text .title {
@@ -57,7 +64,6 @@ html {
 .bg-wrap__text .text {
     font-weight: 320;
     font-size: 170%;
-    margin-bottom: 50px;
     margin-top: 20px;
     transition: 0.3s all ease;
 }
