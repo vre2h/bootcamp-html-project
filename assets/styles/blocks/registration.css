@@ -103,7 +103,7 @@
     cursor: pointer;
     border: none;
     margin-left: 20px;
-    background-image: linear-gradient(60deg, #ffe44ed5, #ffb300, #ffe44ed5);
+    background-image: var(--yellow-gradient);
     background-size: 400%;
     background-position: 100%;
     font-size: 120%;
@@ -112,17 +112,5 @@
 }
 
 .registration__submit-button:hover {
-    animation: submit-gradient 2s infinite;
-}
-
-@keyframes submit-gradient {
-    0% {
-        background-position: 100% 50%;
-    }
-    50% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 100% 50%;
-    }
+    animation: button-gradient 2s infinite;
 }
