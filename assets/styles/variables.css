@@ -3,4 +3,5 @@
 
   --main-btn-bg-color: #fff;
   --secondary-btn-bg-color: #fee771;
+  --yellow-gradient: linear-gradient(60deg, #ffe44ed5, #ffb300, #ffe44ed5);
 }

@@ -8,6 +8,7 @@
 @import url(./blocks/registration.css);
 @import url(./blocks/expectations.css);
 @import url(./blocks/invest.css);
+@import url(./blocks/consult.css);
 
 * {
   box-sizing: border-box;
@@ -28,4 +29,16 @@ a {
 
 a:hover {
   color: #ccc;
+}
+
+@keyframes button-gradient {
+  0% {
+      background-position: 100% 50%;
+  }
+  50% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
 }
