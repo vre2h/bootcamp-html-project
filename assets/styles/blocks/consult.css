@@ -1,3 +1,22 @@
+@media screen and (max-width: 870px) {
+    .cons__bg {
+        padding: 50px;
+    }
+    .cons .cons__title {
+        font-size: 45px;
+    }
+    .cons .cons__text {
+        font-size: 20px;
+    }
+    .cons .cons__form-container {
+      flex-direction: column;  
+    }
+    .cons .cons__form-input {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
 .cons__bg {
     width: 100%;
     height: 100%;
@@ -25,7 +44,6 @@
 
 .cons__form-container {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .cons__form-input {
