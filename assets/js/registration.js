@@ -1,8 +1,8 @@
-let timeZone = document.querySelectorAll(".num");
+let timeZone = document.querySelectorAll(".timer-digit");
 
-let countDownDate = new Date("July 01, 2021 00:00:00").getTime();
+let countDownDate = new Date("July 21, 2021 00:00:00").getTime();
 
-let interval = setInterval(() => {
+let intervalId = setInterval(() => {
   let now = new Date().getTime();
   let distance = countDownDate - now;
 
@@ -17,6 +17,6 @@ let interval = setInterval(() => {
   timeZone[3].textContent = seconds;
 
   if (distance < 0) {
-    clearInterval(interval);
+    clearInterval(intervalId);
   }
 }, 1000);
