@@ -1,3 +1,4 @@
+// Timer
 let timeZone = document.querySelectorAll(".timer-digit");
 
 let countDownDate = new Date("July 21, 2021 00:00:00").getTime();
@@ -20,3 +21,15 @@ let intervalId = setInterval(() => {
     clearInterval(intervalId);
   }
 }, 1000);
+
+// Input
+const phoneInput = document.getElementById("reg-phone-input");
+phoneInput.addEventListener("focus", () => {
+  phoneInput.classList.add("animate-border");
+  phoneInput.placeholder = "";
+});
+
+phoneInput.addEventListener("focusout", () => {
+  phoneInput.classList.remove("animate-border");
+  phoneInput.placeholder = "Phone number";
+});

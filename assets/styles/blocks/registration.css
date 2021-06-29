@@ -15,6 +15,7 @@
 .registration__container {
     padding: 50px 100px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* Title */
@@ -74,6 +75,7 @@
 /* Registration form */
 .registration__input-wrap {
     display: flex;
+    height: 58px;
 }
 
 .registration__number {
@@ -91,12 +93,18 @@
 }
 
 .registration__form .num-input {
-    padding: 20px 10px;
     text-decoration: none;
     outline: none;
-    border: 0 none;
+    border: 3px solid rgb(255, 255, 255);
     width: 100%;
+    padding: 20px 20px;
+	transition: 0.3s ease-in;
+	animation-name: border;
 }
+
+.registration__form .num-input:hover {
+    border: 3px solid #ffd900;
+} 
 
 .registration__submit-button {
     width: 170px;
