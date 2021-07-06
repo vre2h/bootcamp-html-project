@@ -5,9 +5,17 @@
 @import url(./blocks/course-selection.css);
 @import url(./blocks/hat.css);
 @import url(./blocks/address.css);
+@import url(./blocks/registration.css);
+@import url(./blocks/expectations.css);
+@import url(./blocks/invest.css);
+@import url(./blocks/consult.css);
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -25,4 +33,42 @@ a {
 
 a:hover {
   color: #ccc;
+}
+
+/* Button gradient animation */
+
+@keyframes button-gradient {
+  0% {
+      background-position: 100% 50%;
+  }
+  50% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+
+/* Border animation */
+.animate-border {
+	animation: border 2s ease-in-out infinite;
+}
+
+@keyframes border {
+	0% {
+		border: 3px solid #ffd900;
+	}
+	25% {
+		border: 3px solid #ffc400;
+	}
+	75% {
+		border: 3px solid #fff3b0;
+	}
+	100% {
+		border: 3px solid #ffd900;
+	}
+}
+
+.db {
+  display: block;
 }

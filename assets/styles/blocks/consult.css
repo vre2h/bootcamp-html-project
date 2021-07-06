@@ -1,0 +1,109 @@
+@media screen and (max-width: 870px) {
+    .consultation__bg {
+        padding: 50px;
+    }
+    .consultation .consultation__title {
+        font-size: 45px;
+    }
+    .consultation .consultation__text {
+        font-size: 20px;
+    }
+    .consultation .consultation-form__inp-btn-wrap {
+      display: flex;
+      flex-direction: column;  
+    }
+    .consultation .consultation-form__input {
+        margin: 0;
+        margin-bottom: 2px;
+    }
+    .consultation .consultation-form__submit {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .consultation .consultation__bg {
+        padding-bottom: 250px;
+    }
+}
+
+.consultation__bg {
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 130px;
+    margin-bottom: 50px;
+}
+
+.consultation__title {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.consultation__text {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+/* Form */
+
+/* Inputs */
+.consultation-form__inp-btn-wrap {
+	display: flex;
+	height: 58px;
+}
+
+.consultation-form__input {
+	text-decoration: none;
+    outline: none;
+	width: 500px;
+    height: 58px;
+	padding-left: 20px;
+	margin-right: 20px;
+	transition: 0.3s ease-in;
+	animation-name: border;
+	border: 3px solid rgb(255, 255, 255);
+}
+
+.consultation-form__input:hover {
+	border: 3px solid #ffd900;
+}
+
+/* Submit button */
+.consultation-form__submit {
+	cursor: pointer;
+    border: none;
+	width: 100px;
+	background-image: var(--yellow-gradient);
+    background-size: 400%;
+    background-position: 100%;
+	font-size: 120%;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+	transition: 0.3s ease-in;
+}
+
+.consultation-form__submit:hover {
+	animation: button-gradient 2s infinite;
+}
+
+/* Error fields */
+.consultation-form__errors-wrap {
+	display: flex;
+	height: 40px;
+	color: rgb(255, 196, 0);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.consultation-form__error {
+	width: 300px;
+	height: 40px;
+	padding: 10px 6px 0px 20px;
+	margin-right: 20px;
+    color: rgb(255, 196, 0);
+}

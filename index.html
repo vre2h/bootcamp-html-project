@@ -96,6 +96,8 @@
       src="https://kit.fontawesome.com/cc91a6265e.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/registration.js" defer></script>
+    <script src="./assets/js/consultation.js" defer></script>
     <!-- scripts end -->
 
     <!-- css start -->
@@ -182,9 +184,102 @@
         3 Hakob Hakobyan, Yerevan
       </div>
     </div>
-   
 
-    <!-- course selection -->
+    <!-- Registration -->
+    <div id="registration" class="registration">
+      <div class="registration__container">
+        <!-- Title -->
+        <div class="registration__title">
+          Registration for Machine Learning<br>
+          and QA Bootcamps is open!
+        </div>
+
+        <!-- Date -->
+        <div class="registration__date">
+
+          <div class="date-block registration__days"> 
+            <span class="timer-digit days-num"></span>
+            <div class="days">Days</div>
+          </div>
+          <div class="date-block registration__hours">
+            <span class="timer-digit hours-num"></span>
+            <div class="hours">Hours</div>
+          </div>
+          <div class="date-block registration__minuits">
+            <span class="timer-digit minutes-num"></span>
+            <div class="minutes">Minutes</div>
+          </div>
+          <div class="registration__seconds">
+            <span class="timer-digit seconds-num"></span>
+            <div class="seconds">Seconds</div>
+          </div>
+        </div>
+
+        <!-- Number -->
+        <div class="registration__number">
+          <div class="text">Leave your phone number below for a free Consultation</div>
+          <form class="registration__form" action="#registration">
+            <div class="registration__input-wrap">
+              <input id="reg-phone-input" class="num-input" type="text" placeholder="Phone number">
+              <button class="registration__submit-button">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <!-- What to Expect -->
+    <div class="ex">
+      <div class="ex__background">
+        <div class="ex__container">
+          <div class="ex__title">What to Expect</div>
+          <div class="ex__expectations">
+            
+            <!-- Full Time Program -->
+            <div class="exp">
+              <div class="exp__head">
+                <div class="exp__img">
+                  <img src="https://thumb.tildacdn.com/tild3561-6264-4039-a462-316566383938/-/resize/65x/-/format/webp/icons8-future-64.png" alt="">
+                </div>
+                <div class="exp__title exp__title--program">Full Time Program</div>
+              </div>
+              <div class="exp__text">Almost all bootcamps are scheduled to<br>
+                be from 10AM to 7PM, five days a week.
+              </div>
+            </div>
+            
+            <!-- Guaranteed Employment -->
+            <div class="exp">
+              <div class="exp__head">
+                <div class="exp__img">
+                  <img src="https://thumb.tildacdn.com/tild6562-6232-4333-b663-646539326563/-/resize/65x/-/format/webp/icons8-job-seeker-80.png" alt="">
+                </div>
+                <div class="exp__title exp__title--employ">Guaranteed<br>Employment</div>
+              </div>
+              <div class="exp__text">We guarantee that the graduate will find<br>
+                a job for 4 months after graduation.
+              </div>
+            </div>
+            
+            <!-- No Upfront fees -->
+            <div class="exp">
+              <div class="exp__head">
+                <div class="exp__img">
+                  <img src="https://thumb.tildacdn.com/tild6538-3431-4434-b566-313837383061/-/resize/65x/-/format/webp/icons8-launch-80.png" alt="">
+                </div>
+                <div class="exp__title exp__title--no-fees">No Upfront fees</div>
+              </div>
+              <div class="exp__text">You study, then pay only after getting a<br>
+                job, by giving a small share from your<br>
+                future income.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Course selection -->
     <div id="courses" class="course-selection mb-20">
       <div class="container">
         <div class="course-wrap">
@@ -281,6 +376,80 @@
 
             </div>
           </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Invest -->
+    <div class="invest">
+      <div class="invest__container">
+        <div class="invest__title">We Invest in Your<br>Education</div>
+        
+        <div class="invest__text-area">
+          <div class="invest__text-area-title">What is ISA?</div>
+          <div class="invest__text-area-text">
+            Income Share Agreement (ISA) means that our success completely depends on your<br>
+            professional and financial growth. According to ISA students pay only when their<br>
+            salary exceed a certain monthly amount, and the fee is 20% of monthly gross salary<br>
+            until the entire tuition fee is not covered.
+          </div>
+        </div>
+
+        <div class="invest__text-area">
+          <div class="invest__text-area-title">What is the tuition fee?</div>
+          <div class="invest__text-area-text">
+            Tuition fee for the Coding Bootcamp depends on the Bootcamp, from 850.000 AMD<br>
+            for the QA Bootcamp till 1.800.000 AMD for the Machine Learning Bootcamp, but you<br>
+            start paying only when your salary reaches 200.000 AMD. If you want to pay in<br>
+            advance, you will get a huge discount. Payments must be made by the time the total<br>
+            amount is made. It means, faster your growth is, earlier you finish your payments.
+          </div>
+        </div>
+
+        <div class="invest__text-area invest__last-area">
+          <div class="invest__text-area-title">Does it mean, that I will get a job anyway?</div>
+          <div class="invest__text-area-text">
+            We guarantee your employment. It means, that if you're not employed in 4 months<br>
+            after the graduation, you have no financial obligations. From the very beginning we<br>
+            attract leading employers to these bootcamps to follow your success and consider<br>
+            you as a strong junior level developer candidate.
+            <br>
+            <br>
+            <br>
+            Find more information about the ISA and other organizational details in the F.A.Q.<br>
+            section.
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Consultation -->
+    <div id="consultation" class="consultation">
+      <div class="consultation__bg">
+        <div class="consultation__title">Sign Up for a free Consultation</div>
+        <div class="consultation__text">
+          Didn't decide yet which patch fits you best? Our Program<br>
+          Coordinators will be happy to help you!
+        </div> 
+        <div class="consultation-form">
+          <div class="consultation-form__bg">
+              <div class="consultation-form__container">
+                  <form name="consult-form" action="#" onsubmit="return validate('submit')">
+                      <div class="consultation-form__inp-btn-wrap">
+                        <div class="consultation-form__email-section">
+                          <input id="email-input" class="consultation-form__input db" type="text" placeholder="Email" required>
+                          <span id="email-error" class="consultation-form__error db"></span>
+                        </div>
+                        <div class="consultation-form__phone-section">
+                          <input id="phone-input" class="consultation-form__input db" type="text" placeholder="Phone number" required>
+                          <span id="phone-error" class="consultation-form__error db"></span>
+                        </div>
+                        <button class="consultation-form__submit db">Send</button>                        
+                      </div>
+                  </form>
+              </div>
+          </div>
         </div>
       </div>
     </div>

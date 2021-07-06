@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: var(--main-color);
+    width: 100%;
+    height: 100%;
+}
+
+.registration__container {
+    padding: 50px 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Title */
+.registration__title {
+    color: white;
+    font-size: 200%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: 0.3s all ease;
+    margin-bottom: 80px;
+}
+
+.registration__title:hover {
+    text-shadow: 0.5px 0.5px 2px rgb(189, 189, 189);
+}
+
+/* Date */
+.registration__date {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.registration__date .timer-digit {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.registration__date .date-block {
+    margin-right: 34px;
+    padding-right: 34px;
+    padding-top: 15px;
+    line-height: 35px;
+    position: relative;
+}
+
+.date-block::after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .2;
+    background: #fff;
+    width: 1px;
+    transition: 0.3s all ease;
+}
+
+.registration__seconds {
+    line-height: 35px;
+    padding-top: 15px;
+}
+
+/* Registration form */
+.registration__input-wrap {
+    display: flex;
+    height: 58px;
+}
+
+.registration__number {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.registration__number .text {
+    color: white;
+    font-size: 120%;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.registration__form .num-input {
+    text-decoration: none;
+    outline: none;
+    border: 3px solid rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px 20px;
+	transition: 0.3s ease-in;
+	animation-name: border;
+}
+
+.registration__form .num-input:hover {
+    border: 3px solid #ffd900;
+} 
+
+.registration__submit-button {
+    width: 170px;
+    cursor: pointer;
+    border: none;
+    margin-left: 20px;
+    background-image: var(--yellow-gradient);
+    background-size: 400%;
+    background-position: 100%;
+    font-size: 120%;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.registration__submit-button:hover {
+    animation: button-gradient 2s infinite;
+}
